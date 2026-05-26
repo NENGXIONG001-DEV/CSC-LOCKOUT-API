@@ -1,0 +1,20 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model tb_login_attempts {
+  id           Int       @id @default(autoincrement())
+  usercode     String    @unique @db.VarChar(100)
+  attempts     Int       @default(0)
+  locked_until DateTime? @db.Timestamp(6)
+  is_blocked   Boolean   @default(false)
+  block_count  Int       @default(0)
+  last_attempt DateTime? @db.Timestamp(6)
+  unlocked_by  String?   @db.VarChar(100)
+  unlocked_at  DateTime? @db.Timestamp(6)
+}

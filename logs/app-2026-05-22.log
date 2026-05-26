@@ -1,0 +1,31 @@
+[2026-05-22 09:43:27] info: POST /lockout/unlock | IP: 192.168.32.104 | usercode=111999 | unlocked_by=111210
+[2026-05-22 09:44:02] info: GET /lockout/list | IP: 192.168.32.104
+[2026-05-22 09:44:05] info: GET /lockout/status?usercode=111999 | IP: 192.168.32.104
+[2026-05-22 09:50:47] info: CSC Unlock User API running on:
+[2026-05-22 09:50:47] info:   Local:   http://localhost:7011
+[2026-05-22 09:50:47] info:   Network: http://192.168.32.104:7011
+[2026-05-22 10:54:43] info: CSC Unlock User API running on:
+[2026-05-22 10:54:43] info:   Local:   http://localhost:7011
+[2026-05-22 10:54:43] info:   Network: http://192.168.32.104:7011
+[2026-05-22 10:54:48] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-05-22 10:54:48] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-05-22 10:55:02] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-05-22 10:55:02] info: POST /lockout/success | IP: 127.0.0.1 | usercode=111999
+[2026-05-22 11:00:17] info: CSC Unlock User API running on:
+[2026-05-22 11:00:17] info:   Local:   http://localhost:7011
+[2026-05-22 11:00:17] info:   Network: http://192.168.32.104:7011
+[2026-05-22 13:05:57] info: CSC Lockout API running on:
+[2026-05-22 13:05:57] info:   Local:   http://localhost:7011
+[2026-05-22 13:05:57] info:   Network: http://192.168.32.104:7011
+[2026-05-22 13:05:59] info: GET / | IP: 127.0.0.1
+[2026-05-22 13:07:05] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-05-22 13:07:12] info: GET /lockout/list | IP: 127.0.0.1
+[2026-05-22 13:07:24] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-05-22 13:07:36] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-05-22 13:07:44] info: POST /lockout/success | IP: 127.0.0.1 | usercode=111999
+[2026-05-22 13:08:02] info: POST /lockout/unlock | IP: 127.0.0.1 | usercode=111999 | unlocked_by=admin001
+[2026-05-22 13:08:10] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-05-22 13:08:28] info: GET /lockout/list | IP: 127.0.0.1
+[2026-05-22 13:09:05] info: CSC Lockout API running on:
+[2026-05-22 13:09:05] info:   Local:   http://localhost:7011
+[2026-05-22 13:09:05] info:   Network: http://192.168.32.104:7011

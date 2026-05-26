@@ -1,0 +1,129 @@
+{
+  "info": {
+    "name": "CSC Lockout API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "CSC-LOCKOUT-API",
+      "value": "http://localhost:7011",
+      "type": "string"
+    },
+    {
+      "key": "ADMIN_SECRET",
+      "value": "47e3228b995a37bd07a9d73aa9de89f3045c0fafdbda73c6708a922d0ce58bbc",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Status & List",
+      "item": [
+        {
+          "name": "Get Lockout Status",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "x-admin-key", "value": "{{ADMIN_SECRET}}" }
+            ],
+            "url": {
+              "raw": "{{CSC-LOCKOUT-API}}/lockout/status?usercode=111999",
+              "host": ["{{CSC-LOCKOUT-API}}"],
+              "path": ["lockout", "status"],
+              "query": [
+                { "key": "usercode", "value": "111999" }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Lockout List",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "x-admin-key", "value": "{{ADMIN_SECRET}}" }
+            ],
+            "url": {
+              "raw": "{{CSC-LOCKOUT-API}}/lockout/list",
+              "host": ["{{CSC-LOCKOUT-API}}"],
+              "path": ["lockout", "list"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Login Flow (Server-to-Server)",
+      "item": [
+        {
+          "name": "Record Attempt",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "x-admin-key", "value": "{{ADMIN_SECRET}}" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"usercode\": \"111999\"\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": {
+              "raw": "{{CSC-LOCKOUT-API}}/lockout/attempt",
+              "host": ["{{CSC-LOCKOUT-API}}"],
+              "path": ["lockout", "attempt"]
+            },
+            "description": "เรียกเมื่อรหัสผ่านผิด — API นับ +1 และจัดการ lock/block เอง\n\nResponse:\n- { status: 'remaining', remaining: 3 }\n- { status: 'locked', minutes: 15 }\n- { status: 'blocked' }"
+          }
+        },
+        {
+          "name": "Record Success",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "x-admin-key", "value": "{{ADMIN_SECRET}}" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"usercode\": \"111999\"\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": {
+              "raw": "{{CSC-LOCKOUT-API}}/lockout/success",
+              "host": ["{{CSC-LOCKOUT-API}}"],
+              "path": ["lockout", "success"]
+            },
+            "description": "เรียกเมื่อ login สำเร็จ — API reset attempts = 0 เอง"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin",
+      "item": [
+        {
+          "name": "Unlock User",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "x-admin-key", "value": "{{ADMIN_SECRET}}" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"usercode\": \"111999\",\n  \"unlocked_by\": \"admin001\"\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": {
+              "raw": "{{CSC-LOCKOUT-API}}/lockout/unlock",
+              "host": ["{{CSC-LOCKOUT-API}}"],
+              "path": ["lockout", "unlock"]
+            },
+            "description": "ปลด lock/block ให้ user\n\nReset: is_blocked=false, locked_until=null, attempts=0\nคงไว้: block_count, last_attempt"
+          }
+        }
+      ]
+    }
+  ]
+}
