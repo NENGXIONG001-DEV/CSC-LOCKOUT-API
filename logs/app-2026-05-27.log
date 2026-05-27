@@ -1,0 +1,5 @@
+[2026-05-27 09:00:57] info: CSC Lockout API running on:
+[2026-05-27 09:00:57] info:   Local:   http://localhost:7011
+[2026-05-27 09:00:57] info:   Network: http://192.168.32.156:7011
+[2026-05-27 09:01:03] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-05-27 09:01:13] info: GET /lockout/list | IP: 127.0.0.1

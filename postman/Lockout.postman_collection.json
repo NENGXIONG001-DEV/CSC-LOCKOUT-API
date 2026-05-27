@@ -73,7 +73,7 @@
               "host": ["{{CSC-LOCKOUT-API}}"],
               "path": ["lockout", "attempt"]
             },
-            "description": "เรียกเมื่อรหัสผ่านผิด — API นับ +1 และจัดการ lock/block เอง\n\nResponse:\n- { status: 'remaining', remaining: 3 }\n- { status: 'locked', minutes: 15 }\n- { status: 'blocked' }"
+            "description": "เรียกเมื่อรหัสผ่านผิด — API นับ +1 และจัดการ lock/block เอง\n\nResponse:\n- { status: 200, data: { status: 'remaining', remaining: 3 } }\n- { status: 200, data: { status: 'locked', minutes: 15 } }\n- { status: 200, data: { status: 'blocked' } }"
           }
         },
         {
