@@ -1,0 +1,12 @@
+[2026-06-02 14:46:41] info: CSC Lockout API running on:
+[2026-06-02 14:46:41] info:   Local:   http://localhost:7011
+[2026-06-02 14:46:41] info:   Network: http://192.168.32.158:7011
+[2026-06-02 14:50:38] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-02 14:50:38] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-02 14:50:44] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-02 14:50:44] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-02 14:52:13] info: CSC Lockout API running on:
+[2026-06-02 14:52:13] info:   Local:   http://localhost:7011
+[2026-06-02 14:52:13] info:   Network: http://192.168.32.158:7011
+[2026-06-02 14:53:21] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-02 14:53:22] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999

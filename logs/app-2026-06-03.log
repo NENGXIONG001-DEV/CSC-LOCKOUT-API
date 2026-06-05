@@ -1,0 +1,160 @@
+[2026-06-03 08:28:29] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:28:30] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 08:38:36] info: CSC Lockout API running on:
+[2026-06-03 08:38:36] info:   Local:   http://localhost:7011
+[2026-06-03 08:38:36] info:   Network: http://192.168.32.158:7011
+[2026-06-03 08:40:50] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:40:51] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 08:40:54] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:40:54] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 08:42:48] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:42:49] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 08:42:50] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:42:50] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 08:42:55] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:42:55] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 08:50:31] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:50:39] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:50:44] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:52:58] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:53:02] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:53:24] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:53:24] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 08:53:26] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:53:26] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 08:53:27] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:53:27] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 08:53:28] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:53:28] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 08:53:29] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:53:29] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 08:55:43] info: CSC Lockout API running on:
+[2026-06-03 08:55:43] info:   Local:   http://localhost:7011
+[2026-06-03 08:55:43] info:   Network: http://192.168.32.158:7011
+[2026-06-03 08:56:42] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:56:54] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:57:30] info: CSC Lockout API running on:
+[2026-06-03 08:57:30] info:   Local:   http://localhost:7011
+[2026-06-03 08:57:30] info:   Network: http://192.168.32.158:7011
+[2026-06-03 08:57:40] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:57:40] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 08:57:42] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:57:42] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 08:57:43] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:57:43] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 08:57:43] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:57:44] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 08:57:52] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 08:57:52] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:00:15] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:00:16] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:00:19] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:00:19] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:00:20] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:00:21] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:00:22] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:00:22] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:00:28] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:00:28] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:00:58] info: CSC Lockout API running on:
+[2026-06-03 09:00:58] info:   Local:   http://localhost:7011
+[2026-06-03 09:00:58] info:   Network: http://192.168.32.158:7011
+[2026-06-03 09:01:21] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:01:21] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:01:24] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:01:24] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:01:25] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:01:25] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:03:34] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:03:34] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:03:36] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:03:36] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:03:37] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:03:37] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:06:02] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:06:14] info: GET /lockout/list | IP: 127.0.0.1
+[2026-06-03 09:07:37] info: GET /lockout/status?usercode=111210 | IP: 127.0.0.1
+[2026-06-03 09:07:38] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111210
+[2026-06-03 09:07:46] info: GET /lockout/status?usercode=111210 | IP: 127.0.0.1
+[2026-06-03 09:07:46] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111210
+[2026-06-03 09:07:55] info: GET /lockout/status?usercode=111210 | IP: 127.0.0.1
+[2026-06-03 09:07:55] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111210
+[2026-06-03 09:14:48] info: GET /lockout/status?usercode=111210 | IP: 127.0.0.1
+[2026-06-03 09:14:48] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111210
+[2026-06-03 09:14:57] info: GET /lockout/status?usercode=111210 | IP: 127.0.0.1
+[2026-06-03 09:14:57] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111210
+[2026-06-03 09:15:06] info: GET /lockout/status?usercode=111210 | IP: 127.0.0.1
+[2026-06-03 09:15:06] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111210
+[2026-06-03 09:15:41] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:15:41] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:15:57] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:15:57] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:16:08] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:16:08] info: POST /lockout/success | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:16:25] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:16:25] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:16:33] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:16:33] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:16:34] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:16:34] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:24:19] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:24:19] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:24:26] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:24:26] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:24:40] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:24:40] info: POST /lockout/success | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:24:52] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:24:52] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:24:53] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:24:53] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:24:54] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:24:54] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:25:45] info: CSC Lockout API running on:
+[2026-06-03 09:25:45] info:   Local:   http://localhost:7011
+[2026-06-03 09:25:45] info:   Network: http://192.168.32.158:7011
+[2026-06-03 09:25:48] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:26:48] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:28:54] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:28:54] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:28:55] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:28:55] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:29:01] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:29:01] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:29:35] info: POST /lockout/unlock | IP: 127.0.0.1 | usercode=111999 | unlocked_by=admin001
+[2026-06-03 09:29:47] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:29:47] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:29:49] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:29:49] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:29:55] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:29:55] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:33:52] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:33:52] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:33:53] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:33:53] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:33:55] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 09:33:55] info: POST /lockout/attempt | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 09:34:05] info: POST /lockout/unlock | IP: 127.0.0.1 | usercode=111999 | unlocked_by=admin001
+[2026-06-03 09:36:51] info: CSC Lockout API running on:
+[2026-06-03 09:36:51] info:   Local:   http://localhost:7011
+[2026-06-03 09:36:51] info:   Network: http://192.168.32.158:7011
+[2026-06-03 13:33:57] info: CSC Lockout API running on:
+[2026-06-03 13:33:57] info:   Local:   http://localhost:7011
+[2026-06-03 13:33:57] info:   Network: http://192.168.32.158:7011
+[2026-06-03 13:34:24] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 13:34:24] info: POST /lockout/success | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 14:38:36] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 14:38:37] info: POST /lockout/success | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 14:43:03] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 14:43:03] info: POST /lockout/success | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 15:41:10] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 15:41:10] info: POST /lockout/success | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 15:43:55] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 15:43:55] info: POST /lockout/success | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 15:45:41] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 15:45:41] info: POST /lockout/success | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 16:26:53] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 16:26:53] info: POST /lockout/success | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 16:28:36] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 16:28:36] info: POST /lockout/success | IP: 127.0.0.1 | usercode=111999
+[2026-06-03 16:59:33] info: GET /lockout/status?usercode=111999 | IP: 127.0.0.1
+[2026-06-03 16:59:33] info: POST /lockout/success | IP: 127.0.0.1 | usercode=111999

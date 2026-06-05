@@ -1,9 +1,9 @@
 import prisma from '../lib/prisma';
 import { MESSAGES } from '../constants/messages';
 
-const MAX_ATTEMPTS   = 5;
-const BLOCK_ATTEMPTS = 10;
-const LOCK_MINUTES   = 15;
+const MAX_ATTEMPTS   = 3;
+const BLOCK_ATTEMPTS = 6;
+const LOCK_MINUTES   = 10;
 
 function localNow(): Date {
   return new Date(
@@ -19,18 +19,21 @@ export class LockoutService {
       return { usercode, status: 'normal', attempts: 0, block_count: 0, locked_until: null, last_attempt: null };
     }
     const now = localNow();
-    const status = record.is_blocked ? 'blocked'
-      : record.locked_until && record.locked_until > now ? 'locked'
-      : 'normal';
+    const isLocked = !record.is_blocked && !!record.locked_until && record.locked_until > now;
+    const status = record.is_blocked ? 'blocked' : isLocked ? 'locked' : 'normal';
+    const minutes_remaining = isLocked && record.locked_until
+      ? Math.ceil((record.locked_until.getTime() - now.getTime()) / 60000)
+      : null;
     return {
       usercode,
       status,
-      attempts:     record.attempts,
-      block_count:  record.block_count,
-      locked_until: record.locked_until,
-      last_attempt: record.last_attempt,
-      unlocked_by:  record.unlocked_by,
-      unlocked_at:  record.unlocked_at,
+      attempts:         record.attempts,
+      block_count:      record.block_count,
+      locked_until:     record.locked_until,
+      minutes_remaining,
+      last_attempt:     record.last_attempt,
+      unlocked_by:      record.unlocked_by,
+      unlocked_at:      record.unlocked_at,
     };
   }
 
